@@ -102,7 +102,8 @@ section {
   min-height: 100vh; }
   @media (max-width: 767px) and (orientation: landscape) {
     .jumbotron {
-      min-height: 500px; } }
+      min-height: 500px; 
+    width: 100%;} }
   .jumbotron .container {
     position: relative;
     z-index: 1; }
@@ -784,7 +785,8 @@ section {
 
 @media (max-width: 767px) {
   .jumbotron h1 {
-    font-size: 6rem; }
+    font-size: -webkit-xxx-large; 
+  width: 100%;}
   .grid-item {
     width: 100%; }
   .progress {
